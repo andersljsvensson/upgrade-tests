@@ -1,3 +1,0 @@
-@Imports WebHelloWorld.Areas.HelpPage.ModelDescriptions
-@ModelType SimpleTypeModelDescription
-@Model.Documentation
