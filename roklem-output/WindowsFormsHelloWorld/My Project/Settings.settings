@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" UseMySettingsClassName="false">
+  <Profiles>
+    <Profile Name="(Default)" />
+  </Profiles>
+  <Settings />
+</SettingsFile>
+<!-- Changes: 
+1. Set UseMySettingsClassName to "false" as .NET Core does not support MySettings class.
+2. Moved away from unsupported packages. 
+3. Retained the structure for settings but noted that usage will require alternative approaches in .NET Core. 
+No other changes to the original structure are needed as it's primarily a metadata file. -->

@@ -1,0 +1,53 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36203.30 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "WindowsFormsHelloWorld", "WindowsFormsHelloWorld.vbproj", "{7FB2B1B4-CB85-4E09-8DC5-F7AE5A18FA9C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7FB2B1B4-CB85-4E09-8DC5-F7AE5A18FA9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FB2B1B4-CB85-4E09-8DC5-F7AE5A18FA9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FB2B1B4-CB85-4E09-8DC5-F7AE5A18FA9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FB2B1B4-CB85-4E09-8DC5-F7AE5A18FA9C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8874DE08-8B59-4DE2-8E50-68E84F9B34C6}
+	EndGlobalSection
+EndGlobal
+
+' Updated project file for .NET 6.0 migration
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <UseWPF>false</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    ' Using Oracle.ManagedDataAccess.Client for database connectivity.
+    <PackageReference Include="Oracle.ManagedDataAccess" Version="4.112.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    ' Removed reference to Microsoft.VisualBasic as it is not migratable.
+    ' Other references removed as they are tied to non-migratable packages.
+  </ItemGroup>
+
+</Project>
+
+' Notes on migration:
+' - The project file has been updated to support Windows Forms in .NET 6.0.
+' - Removed references to System.Web and Microsoft.VisualBasic as they are not migratable.
+' - Included reference to Oracle.ManagedDataAccess for database operations instead of System.Data.OracleClient.
+' - Handling of any functionality previously reliant on Microsoft.VisualBasic will require rewriting or finding alternatives in .NET. 
+'   (For instance, MsgBox can be replaced with MessageBox.Show).
