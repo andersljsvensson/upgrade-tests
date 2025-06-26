@@ -3,6 +3,7 @@ Option Strict On
 Imports System.Reflection
 Imports System.Drawing.Drawing2D
 Imports System.Windows.Forms
+Imports System.Drawing
 
 Namespace Common
 
@@ -56,7 +57,7 @@ Namespace Common
         Friend WithEvents lblVersion As Label
         Public WithEvents lblProductName As Label
         ' Added an additional label to distinguish resources and prevent conflicts
-        Friend WithEvents lblSplashResource As Label 
+        Friend WithEvents lblSplashResource As Label
 
         'NOTE: Ensure that the following procedure is required by the Windows Form Designer
         'Make sure resource identifiers are unique to prevent conflicts.

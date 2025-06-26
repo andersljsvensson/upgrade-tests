@@ -3,6 +3,8 @@ Option Strict On
 Imports System.Reflection
 Imports System.Diagnostics
 Imports System.Runtime.InteropServices
+Imports System.Windows.Forms
+Imports System.Drawing
 
 Namespace Common
     ''' <summary>

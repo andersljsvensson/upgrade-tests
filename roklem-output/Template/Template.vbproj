@@ -8,6 +8,8 @@
     <RootNamespace>NodeSoft</RootNamespace>
     <AssemblyName>Template</AssemblyName>
     <Nullable>enable</Nullable>
+	  <EnableDefaultItems>false</EnableDefaultItems>
+
   </PropertyGroup>
 
   <ItemGroup>

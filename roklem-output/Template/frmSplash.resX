@@ -61,12 +61,7 @@
   <assembly alias="System.Drawing.Common" name="System.Drawing.Common, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="pnlPicture.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAAWkAAADuCAYAAAD7ufaaAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAOvAAA
-        DrwBlbxySQAAw/RJREFUeF7tvfe/3MeVHTj/zu5+1t5dey3ba689Ho8naTRJcahESiTFnAMiASKRRCAJ
-        EiACARCRyAADSII5UwwSFUYzI0+Qd21LBAgSIEjJ1uezu7X3VtWt761b91bVt18DpDT4oT7dr18/4L1+
-        ...
-        0/gA1G6h7Vs57NAAH8wJY/PMLUST7+CQkAAAAAElFTkSuQmCC
+        
     </value>
   </data>
 </root>
