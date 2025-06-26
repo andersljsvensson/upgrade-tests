@@ -331,7 +331,7 @@ Namespace Template
 
 		Private Sub frmMain_MouseDown(ByVal sender As Object, ByVal e As System.Windows.Forms.MouseEventArgs) Handles MyBase.MouseDown
 			Try
-				If e.Button = Windows.Forms.MouseButtons.Left Then
+				If e.Button = MouseButtons.Left Then
 					m_ptStartDrag = Control.MousePosition
 					m_blnDrag = True
 				End If
@@ -357,7 +357,7 @@ Namespace Template
 
 		Private Sub frmMain_MouseUp(ByVal sender As Object, ByVal e As System.Windows.Forms.MouseEventArgs) Handles MyBase.MouseUp
 			Try
-				If e.Button = Windows.Forms.MouseButtons.Left Then
+				If e.Button = MouseButtons.Left Then
 					m_blnDrag = False
 				End If
 			Catch ex As Exception
