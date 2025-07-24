@@ -1,3 +1,5 @@
+Imports System.Windows.Forms
+
 Public Class Form1
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         ' Instead of using MsgBox, we can use a MessageBox in .NET Core

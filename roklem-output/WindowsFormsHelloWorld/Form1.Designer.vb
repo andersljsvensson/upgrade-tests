@@ -1,3 +1,5 @@
+Imports System.Windows.Forms
+
 Partial Class Form1
     Inherits System.Windows.Forms.Form
 
